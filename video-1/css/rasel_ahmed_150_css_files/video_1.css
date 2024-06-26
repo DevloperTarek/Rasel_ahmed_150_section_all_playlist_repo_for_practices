@@ -1,0 +1,72 @@
+/* video-one css */
+.section-bg{
+     background-image: url('/video-1/img/video-one-office-staff_background_jpg_image-1.jpg');
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     width: 60%;
+     height: 100%;
+     position: absolute;
+     top: 0;
+     left: 0;
+}
+.section-padding {
+     position: relative;
+     z-index: 1;
+ }
+ .appoinment_container_right {
+     padding-left: 100px;
+     padding-top: 135px;
+ }
+ 
+ .section-padding .container {
+     padding: 10px;
+ }
+ 
+ .section-bg::before {
+     position: absolute;
+     content: "";
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100%;
+     background: #17ECE1;
+     opacity: .8;
+ }
+ 
+ .contact_form {
+     padding-top: 120px;
+     padding-bottom: 120px;
+ }
+ 
+ .contact_form input,.contact_info textarea {
+     width: 100%;
+     padding: 15px;
+     border: 0;
+     margin-bottom: 17px;
+     color: #444;
+     font-size: 20px;
+ }
+ 
+ .contact_form input::placeholder {
+     font-size: 20px;
+     text-transform: capitalize;
+ }
+ 
+ textarea#message {
+     width: 100%;
+     height: 200px;
+     border: 0;
+     padding: 20px;
+ }
+ 
+ .contact_form input[type="submit"] {
+     width: auto;
+     padding: 15px 30px;
+     border-radius: 11px;
+     color: #444;
+ }
+ 
+ .appoinment_container_right {
+     padding-left: 100px;
+ }

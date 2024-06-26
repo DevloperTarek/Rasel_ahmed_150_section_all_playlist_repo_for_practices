@@ -24,6 +24,8 @@ $(window).on('scroll', function () {
 	}
 });
 
+// video-one use for datepicker js
+$("#datepicker").datepicker();
 
 
 // mainSlider
