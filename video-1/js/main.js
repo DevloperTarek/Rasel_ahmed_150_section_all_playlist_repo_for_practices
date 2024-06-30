@@ -104,6 +104,14 @@ $('.popup-video').magnificPopup({
 	type: 'iframe'
 });
 
+// mashonary
+$('.mashonary_active').masonry({
+	columnWidth:'.grid-item',
+	// itemSelector:'.grid-item',
+	// gridItem:1,
+	horizontalOrder: true,
+ });
+
 
 // isotop
 $('.grid').imagesLoaded( function() {
