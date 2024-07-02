@@ -1,0 +1,92 @@
+.client_title h3 {
+    font-weight: 700;
+    font-size: 34px;
+}
+
+.client_title span {
+    display: inline-block;
+    width: 54px;
+    height: 5px;
+    background: #30b130;
+    border-radius: 30px;
+}
+
+.client_title span.small {
+    background: #444;
+    width: 27px;
+    margin: 0 10px;
+}
+
+.client_title {
+    margin-bottom: 100px;
+}
+
+.client_wrap .single_client_item > p {
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 30px;
+    font-style: italic;
+    margin-bottom: 15px;
+}
+
+.client_wrap .single_client_item > h4 {
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.client_wrap .single_client_item > h4 > p {
+    margin: 0;
+    font-size: 70%;
+}
+.client_wrap .single_client_item {
+    box-shadow: 0 0 10px #ddd;
+    padding: 25px;
+    padding-left: 110px;
+    position: relative;
+    margin: 10px;
+    z-index: 1;
+}
+.single_client_item::before {
+    position: absolute;
+    top: 50%;
+    left: 30px;
+    /* margin-top: -25px; */
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f10e";
+    line-height: 5px;
+    font-size: 30px;
+    color: #41a341;
+}
+.client_wrap .single_client_item::after {
+    position: absolute;
+    top: 12%;
+    left: 25%;
+    height: 75%;
+    width: 2px;
+    background: #ddd;
+    content: "";
+    border-radius: 30px;
+}
+p {}p {}
+
+.client_wrap.client_carousel_active .owl-dots .owl-dot {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    background: #4ca74c;
+    border-radius: 30px;
+    margin: 0 10px;
+}
+
+.client_wrap.client_carousel_active .owl-dots {
+    position: absolute;
+    left: 50%;
+    margin-top: 50px;
+}
+
+.client_wrap.client_carousel_active .owl-dots .owl-dot.active {
+    width: 30px;
+    background: #444;
+}

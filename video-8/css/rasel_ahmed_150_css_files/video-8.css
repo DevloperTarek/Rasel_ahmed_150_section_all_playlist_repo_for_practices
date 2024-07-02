@@ -1,0 +1,103 @@
+.insurance_bg{
+    background-image: url('/video-8/img/video-8_1.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 250px;
+    position: relative;
+    overflow: hidden;
+    transition: .5s;
+    /* object-fit: cover; */
+}
+
+.single_insurance_item {
+    position: relative;
+    z-index: 1;
+    box-shadow: 0 0 10px #ddd;
+}
+
+.insurance_content {
+    background: #fff;
+    padding: 30px 15px;
+}
+
+.insurance_content h4 {
+    font-weight: 600;
+    font-size: 17px;
+    margin-bottom: 14px;
+}
+
+.insurance_content p {
+    font-weight: 500;
+    font-family: 'poppins',sans-serif;
+    font-size: 13px;
+    margin-bottom: 30px;
+}
+.single_insurance_item {
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    box-shadow: 0 0 10px #ddd;
+    transition: .5s;
+}
+.single_insurance_item .insurance_bg:hover {
+    transform: scale(1.1);
+}
+.single_insurance_item:hover {
+    box-shadow: 0 0 10px rgb(0,#15ed79, 0 /20%);
+}
+
+.insurance_content {
+    background: #fff;
+    padding: 30px 20px;
+}
+
+.insurance_content h4 {
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 14px;
+}
+
+.insurance_content p {
+    font-weight: 400;
+    font-family: 'poppins',sans-serif;
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+
+.insurance_content .see_more_btn:hover {
+    /* color: #15ed75; */
+    /* font-size: 18px; */
+    /* font-weight: 600; */
+    padding: 15px 30px;
+    /* border: none; */
+    /* border-radius: 30px; */
+    background: #15ed79;
+    color: #fff;
+}
+
+.insurance_content .see_more_btn > i {
+    padding-left: 5px;
+}
+
+.insurance_content .see_more_btn {
+    color: #15ed75;
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: .5s;
+    padding: 15px 0;
+}
+.insurance .section-title {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.insurance .section-title h3 {
+    font-weight: 700;
+    font-family: 'Poppins',sans-serif;
+    font-size: 39px;
+}
