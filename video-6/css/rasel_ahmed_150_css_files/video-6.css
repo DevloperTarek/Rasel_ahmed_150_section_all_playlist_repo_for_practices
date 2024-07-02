@@ -1,0 +1,187 @@
+.single_pricing_box {
+    padding: 30px;
+    border: 2px solid;
+    text-align: center;
+    position: relative;
+    transition: .5s;
+}
+
+.single_pricing_box ul.pricing_list_item {
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.single_pricing_box ul.pricing_list_item li {
+    position: relative;
+    padding-left: 24px;
+    margin-bottom: 10px;
+}
+
+.single_pricing_box ul.pricing_list_item li > i {
+    position: absolute;
+    top: 2px;
+    left: 0;
+    color: #ddd;
+}
+
+.single_pricing_box ul.pricing_list_item li:nth-child(3) i {
+    color: red;
+}
+
+.single_pricing_box .price {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.single_pricing_box .order_now {
+    display: inline-block;
+    color: #444;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 12px 24px;
+    margin-bottom: 30px;
+    border-radius: 30px;
+    border: 2px solid;
+}
+
+.single_pricing_box img {
+    margin-bottom: 30px;
+}
+
+.single_pricing_box h4 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.section-title h3 {
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.section-title h3 > span {
+    color: #4de64d;
+}
+
+.section-title p.info {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 32px;
+}
+
+.single_pricing_box:hover {
+    animation: bounce;
+    animation-duration: 1s;
+}
+.single_pricing_box {
+    padding: 30px;
+    border: 2px solid;
+    text-align: center;
+    position: relative;
+    transition: .5s;
+}
+
+.single_pricing_box ul.pricing_list_item {
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.single_pricing_box ul.pricing_list_item li {
+    position: relative;
+    padding-left: 24px;
+    margin-bottom: 10px;
+}
+
+.single_pricing_box ul.pricing_list_item li > i {
+    position: absolute;
+    top: 2px;
+    left: 0;
+    color: #ddd;
+}
+
+.single_pricing_box ul.pricing_list_item li:nth-child(3) i {
+    color: red;
+}
+
+.single_pricing_box .price {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.single_pricing_box .order_now {
+    display: inline-block;
+    color: #444;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 12px 30px;
+    margin-bottom: 30px;
+    border-radius: 30px;
+    border: 2px solid;
+    position: relative;
+    z-index: 1;
+}
+
+.single_pricing_box img {
+    margin-bottom: 30px;
+}
+
+.single_pricing_box h4 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.section-title h3 {
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.section-title h3 > span {
+    color: #4de64d;
+}
+
+.section-title p.info {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 32px;
+}
+
+.single_pricing_box:hover {
+    animation: bounce;
+    animation-duration: 1s;
+}
+
+.single_pricing_box .order_now::after {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #444;
+    border-radius: 30px;
+    opacity: .5;
+    transform: scale(.3);
+    transition: .2s;
+    visibility: hidden;
+}
+.single_pricing_box:hover{
+    box-shadow: 0 0 10px #ddd;
+    border: 2px solid transparent;
+}
+
+.single_pricing_box .order_now:hover::after {transform: scale(1);/* opacity: 1; */ visibility: visible;}
