@@ -1,0 +1,51 @@
+
+.left_side_bg{
+  background-image: url(/video-122/img/video-122_women-child.jpg);
+  background-repeat: no-repeat;
+  background-position: center top;
+  object-fit: cover;
+  background-size: cover;
+  width: 100%;
+  height: 600px;
+}
+.absolute_text {
+    padding: 40px;
+    width: 600px;
+    position: absolute;
+    top: 50%;
+}
+.our_mission_container {
+    position: relative;
+    z-index: 1;
+}
+
+.absolute_text::after {
+    position: absolute;
+    top: 30px;
+    left: 45px;
+    width: 400px;
+    height: 350px;
+    border: 6px solid #99cc33;
+    content: "";
+    /* bottom: 26px; */
+    z-index: -1;
+}
+
+.learn_more {
+    padding: 20px 40px;
+    display: inline-block;
+    font-weight: 400;
+    font-size: 20px;
+    border-radius: 5px;
+    background: #99cc33;
+}
+
+.absolute_text h5 {
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.absolute_text p {
+    margin-bottom: 40px;
+    font-size: 12px;
+}
