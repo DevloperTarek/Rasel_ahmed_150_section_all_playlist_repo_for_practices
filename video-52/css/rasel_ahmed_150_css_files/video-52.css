@@ -1,0 +1,79 @@
+.service-bg{
+    background-image: url('/video-52/img/city-people.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #253959;
+    height: 400px;
+    background-size: cover;
+}
+.single_service .service-bg {
+    position: relative;
+    height: 250px;
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+    z-index: 1;
+}
+
+.single_service {
+    border: 2px solid #ddd;
+    display: block;
+    border-radius: 5px 5px 0 0;
+}
+
+.single_service .service-bg > i {
+    font-size: 37px;
+    color: #fff;
+    width: 80px;
+    height: 80px;
+    background: #243C5C;
+    text-align: center;
+    line-height: 69px;
+    border-radius: 50%;
+    border: 5px solid #fff;
+    position: absolute;
+    bottom: -40px;
+    left: 50%;
+    margin-left: -43px;
+    transition: .5s;
+}
+
+.single_service h4.service_title {
+    text-align: center;
+    text-transform: uppercase;
+    padding: 27px 0;
+    padding-top: 57px;
+    margin-bottom: 0;
+    font-weight: 700;
+    color: #555;
+    transition: .5s;
+}
+
+.single_service:hover .service-bg > i {
+    background: #1CC9D2;
+    border-color: #243C5C;
+    color: #fff;
+}
+
+.single_service:hover h4.service_title {background: #253959;color: #fff;}
+
+.helth-care_title {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.helth-care_title h3 {
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #666;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.helth-care_title  h3 > span {
+    color: #1DC9CF;
+}
+
+.helth-care_title p {
+    font-weight: 600;
+    color: #777;
+}
