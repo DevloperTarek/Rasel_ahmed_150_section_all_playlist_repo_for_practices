@@ -1,0 +1,37 @@
+.trends_bg {
+     background: #1A1E1D;
+     margin-top: 120px;
+ }
+ 
+ .trends_container h2 {
+     font-size: 60px;
+     font-weight: 700;
+     color: #fff;
+ }
+ 
+ .trends_container h4.subtitle {
+     color: #fff;
+     text-transform: uppercase;
+     font-size: 16px;
+     letter-spacing: 5px;
+     margin-bottom: 30px;
+ }
+ 
+ .trends_container p.trends-info {
+     font-size: 17px;
+     line-height: 30px;
+     color: #666;
+     margin-bottom: 40px;
+ }
+ 
+ .trends_container .read_more {
+     background: none;
+     letter-spacing: 5px;
+     font-size: 18px;
+     padding: 16px 30px;
+     border: 1px solid #fff;
+ }
+ 
+ .trends_img img {
+     margin-top: -144px;
+ }
