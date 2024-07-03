@@ -118,8 +118,23 @@ $('.grid').imagesLoaded( function() {
 	  }
 	});
 });
+// init Isotope
+var $filter_by_btn = $('.mashonary_active').isotope({
+	itemSelector: '.grid-item',
+	percentPosition: true,
+	masonry: {
+		// use outer width of grid-sizer for columnWidth
+		columnWidth: '.grid-item',
+		gutter: 30,
 
+	}
+})
 // filter items on button click
+$('.filter-button-group').on( 'click', 'button', function() {
+	var filterValue = $(this).attr('data-filter');
+	$filter_by_btn.isotope({ filter: filterValue });
+   });
+
 $('.portfolio-menu').on( 'click', 'button', function() {
   var filterValue = $(this).attr('data-filter');
   $grid.isotope({ filter: filterValue });
