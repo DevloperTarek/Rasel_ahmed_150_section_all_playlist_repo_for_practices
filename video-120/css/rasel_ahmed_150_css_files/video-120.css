@@ -1,0 +1,67 @@
+.gradient_banner_template.gradient_bg{
+    background-image: url('/video-120/img/city-road-backgrund.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    color: #fff;
+    position: relative;
+    z-index: 1;
+    object-fit: cover;
+}
+.gradient_banner_template.gradient_bg::after{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    content: "";
+    opacity: .9;
+    z-index: -1;
+    background: linear-gradient(45deg, rgba(154,75,254,1) 0%,rgba(113,58,252,1) 100%);
+}
+.gradient_banner_content h2 {
+    font-size: 61px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.gradient_banner_content p {
+    font-size: 14px;
+    color: #fff;
+    font-weight: 400;
+    margin-bottom: 30px;
+    word-spacing: 0px;
+}
+
+.gradient_banner_content p > span {
+    text-decoration: underline;
+}
+
+.video-content {
+    display: flex;
+    align-items: center;
+    padding-left: 68px;
+}
+
+.gradient_video-popup {
+    border: 1px solid #fff;
+    padding: 30px;
+    border-radius: 50px;
+    position: absolute;
+    width: 100%;
+    right: -56%;
+    top: 50%;
+    margin-top: -108px;
+}
+
+.video-content p {
+    color: #fff;
+    margin-bottom: 0;
+    padding-left: 30px;
+    text-transform: uppercase;
+}
+
+html,body {
+    overflow-x: hidden;
+}
