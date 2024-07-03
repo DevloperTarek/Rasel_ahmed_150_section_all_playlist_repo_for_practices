@@ -1,5 +1,9 @@
 .single_item {
     background-color: #999;
+    background-image: url('/video-123/img/video_1.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 300px;
     width: 250px;
     position: relative;
@@ -10,6 +14,17 @@
     cursor: pointer;
     box-shadow: 0 0 5px #ddd;
 }
+.single_item.bg-2{background-image: url('/video-123/img/city-people.jpg');}
+.single_item.bg-3{background-image: url('/video-123/img/city-road-backgrund.jpg');}
+.single_item.bg-4{background-image: url('/video-123/img/testimonials_bg.png');}
+.single_item.bg-5{background-image: url('/video-123/img/video-7--1.jpg');}
+.single_item.bg-6{background-image: url('/video-123/img/video-7-1.jpg');}
+.single_item.bg-7{background-image: url('/video-123/img/video-7_2.jpg');}
+.single_item.bg-8{background-image: url('/video-123/img/video-8_1.jpg');}
+.single_item.bg-9{background-image: url('/video-123/img/video-8_2.jpg');}
+.single_item.bg-10{background-image: url('/video-123/img/video-8_3.jpg');}
+.single_item.bg-11{background-image: url('/video-123/img/video-8_4.jpg');}
+.single_item.bg-12{background-image: url('/video-123/img/video-one-office-staff_background_jpg_image-1.jpg');}
 .single_item::after {
     position: absolute;
     content: "";
@@ -25,7 +40,7 @@
     visibility: hidden;
 }
 .single_item:hover::after {
-    opacity: 1;
+    opacity: .5;
     visibility: visible;
     transform: scale(1);
 }
