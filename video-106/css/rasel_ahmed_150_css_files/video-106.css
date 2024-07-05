@@ -1,0 +1,21 @@
+.flex_ible_box {
+     box-shadow: 0 0 5px #ddd;
+ }
+ 
+ .flex_ible_box {
+     display: flex;
+     align-items: center;
+     border-right: 2px solid #444;
+     border-left: 2px solid #444;
+ }
+ 
+ .single_box {
+     padding: 30px;
+     border-left: 2px solid;
+     border-top: 2px solid;
+     border-bottom: 2px solid;
+ }
+ 
+ .single_box:nth-child(1) {
+     border-left: none;
+ }

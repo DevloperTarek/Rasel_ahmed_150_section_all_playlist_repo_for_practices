@@ -1,0 +1,51 @@
+.banner.banner-bg{
+    background-image: url('/Marclean/images/hero/hero-1.jpg');
+    background-color: #444;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+/* header area */
+.header_left_area .mean-menu ul li {
+    display: inline-block;
+    padding: 32px;
+    padding-right: 0;
+}
+
+.header_left_area .mean-menu ul li a {
+    display: block;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 22px;
+    color: #495057;
+    text-transform: uppercase;
+}
+
+.header_left_area a.logo {display: block;padding-top: 20px;}
+
+.header-area .header-right-area a.user-login {
+    font-size: 14px;
+    padding: 10px 20px;
+    font-weight: 600;
+    line-height: 30px;
+    color: #495057;
+    background: #F8F9FA;
+    border-radius: 30px;
+    border: 1px solid #E9ECEF;
+}
+
+.header-area {
+    background: #fff;
+    box-shadow: 0 0 5px #ddd;
+}
+
+.header-area .header-right-area a.user-login span {
+    padding-right: 5px;
+}
+
+.header-right-area {
+    margin-top: 27px;
+    margin-bottom: 0;
+}
