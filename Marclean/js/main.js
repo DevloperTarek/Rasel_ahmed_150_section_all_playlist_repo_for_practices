@@ -27,10 +27,10 @@ $('.main-menu nav ul').onePageNav({
 
 $(window).on('scroll', function () {
 	var scroll = $(window).scrollTop();
-	if (scroll < 245) {
-		$(".header-sticky").removeClass("sticky");
+	if (scroll < 200) {
+		$(".sticky_header").removeClass("sticky");
 	} else {
-		$(".header-sticky").addClass("sticky");
+		$(".sticky_header").addClass("sticky");
 	}
 });
 
@@ -77,23 +77,23 @@ mainSlider();
 
 
 // owlCarousel
-$('.office-staff-carousel_active').owlCarousel({
+$('.banner_carousel_list').owlCarousel({
     loop:true,
-    margin:90,
+    margin:0,
     autoplay:false,
-	items:4,
-	nav:true,
-	navText:['<i class="fas fa-arrow-left"></i>','<i class="fas fa-arrow-right"></i>'],
-	dots:false,
+	items:1,
+	nav:false,
+	// navText:['<i class="fas fa-arrow-left"></i>','<i class="fas fa-arrow-right"></i>'],
+	dots:true,
     responsive:{
         0:{
             items:1
         },
         767:{
-            items:4
+            items:1
         },
         992:{
-            items:4
+            items:1
         }
     }
 })
