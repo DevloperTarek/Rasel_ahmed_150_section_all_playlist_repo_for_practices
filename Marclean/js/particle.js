@@ -1,9 +1,9 @@
 /* ---- particles.js config ---- */
 
-particlesJS("particles-js", {
+particlesJS("use_particalse", {
      "particles": {
        "number": {
-         "value": 180,
+         "value": 100,
          "density": {
            "enable": true,
            "value_area": 800

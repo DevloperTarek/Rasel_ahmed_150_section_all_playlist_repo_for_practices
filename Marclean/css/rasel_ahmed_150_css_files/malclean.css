@@ -521,3 +521,159 @@
     transform: translateY(-15px);
 }
 /* ai service */
+
+/* hackers bg */
+.hackers.hackers-bg{
+    background-image: url('/Marclean/images/hackers_section/hackers_bg.jpg');
+    background-repeat: no-repeat;
+    padding: 120px 0;
+    color: #fff;
+
+}
+.hackers .start_with_price {
+    text-align: center;
+    padding-top: 120px;
+}
+
+.hackers .start_with_price h1.title {
+    font-weight: 700;
+    font-size: 78px;
+    line-height: 90px;
+    color: #fff;
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    margin-bottom: 85px;
+}
+.hackers .start_with_price h1.title::after{
+    position: absolute;
+    right: 3px;
+    top: 50%;
+    margin-top: -52px;
+    font-family: "Font Awesome 5 Free";
+    /* content:"\f21e"; */
+    content: "";
+    background-image: url('/Marclean/images/hackers_section/zigzag-shafe-1.png');
+    font-weight: 700;
+    width: 140px;
+    height: 93px;
+    background-repeat: no-repeat;
+}
+
+.hackers .start_with_price span.dashed_border {
+    font-weight: 700;
+    font-size: 78px;
+    line-height: 90px;
+    color: #FFC107;
+    border: 2px dashed #FFC107;
+    border-radius: 50px;
+    padding: 3px 40px;
+    margin-left: 10px;
+    position: relative;
+}
+
+.hackers .start_with_price span.dashed_border::after {
+    position: absolute;
+    bottom: -28px;
+    right: 5px;
+    content: "\f06d";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 700;
+    color: #FFC107;
+    font-size: 51px;
+}
+.start_with_price p.info span {
+    color: #FA5252;
+}
+
+.start_with_price p.info {
+    font-weight: 400;
+    font-size: 46px;
+    line-height: 54px;
+    color: #fff;
+    margin-bottom: 60px;
+}
+
+.website_visit_contact_form input[type=text] {
+    padding: 25px 30px;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+    border-radius: 10px;
+}
+
+.website_visit_contact_form input[type=text]::placeholder {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #ADB5BD;
+}
+
+.website_visit_contact_form form a.scan_btn {
+    padding: 15px 30px;
+    position: absolute;
+    right: 29px;
+    z-index: 2;
+    margin-top: 13px;
+    background: #FCC419;
+    border-radius: 6px;
+    color: #212529;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.website_visit_contact_form form a.scan_btn > i {
+    padding-right: 5px;
+}
+.single_hackers_item .hackers_logo > i {
+    font-size: 53px;
+    color: #FCC419;
+    display: block;
+    margin-bottom: 15px;
+}
+
+.single_hackers_item h4 {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    color: #fff;
+    margin-bottom: 0;
+}
+
+.single_hackers_item {
+    padding: 64px 86px;
+    text-align: center;
+}
+.hackers_service_list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.single_hackers_item:nth-child(1), .single_hackers_item:nth-child(2), .single_hackers_item:nth-child(3), .single_hackers_item:nth-child(5), .single_hackers_item:nth-child(6),.single_hackers_item:nth-child(7) {
+    border-right: 1px solid #ddd;
+}
+
+.single_hackers_item:nth-child(1), .single_hackers_item:nth-child(2), .single_hackers_item:nth-child(3), .single_hackers_item:nth-child(4) {
+    border-bottom: 1px solid #ddd;
+}
+
+.website_visit_contact_form {
+    margin-bottom: 90px;
+}
+/* particles */
+
+#use_particalse {
+    position: relative;
+    z-index: 1;
+}
+
+#use_particalse canvas {
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+/* hackers bg */
