@@ -1,0 +1,22 @@
+.single_banner_carousel_item .banner_logo{
+     animation: fadeInUp;
+     animation-duration: .5s;
+     animation-delay: .5s;
+}
+.single_banner_carousel_item h3{
+     animation: fadeInUp;
+     animation-duration: .7s;
+     animation-delay: .7s;
+}
+.single_banner_carousel_item p{
+     animation: fadeInUp;
+     animation-duration: .8s;
+     animation-delay: .8s;
+}
+
+/* service */
+.single_service_item{
+     /* animation: fadeInLeft;
+     animation-duration: 2s;
+     animation-delay: 1s; */
+}

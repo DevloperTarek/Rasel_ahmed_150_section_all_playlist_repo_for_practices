@@ -97,8 +97,10 @@ h6 a {
 	color: inherit;
 }
 h1 {
-	font-size: 40px;
-	font-weight: 500;
+	font-size: 46px;
+	font-weight: 400;
+	line-height: 54px;
+	color: #212529;
 }
 h2 {
 	font-size: 35px;
@@ -107,7 +109,10 @@ h3 {
 	font-size: 28px;
 }
 h4 {
-	font-size: 22px;
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 28px;
+	color: #212529;
 }
 h5 {
 	font-size: 18px;
@@ -122,12 +127,18 @@ ul {
 li {
 	list-style: none
 }
+p.another_color{
+	color: #495057;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 28px;
+}
+
 p {
-	font-size: 14px;
-	font-weight: normal;
-	line-height: 24px;
-	color: #7e7e7e;
-	margin-bottom: 15px;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 28px;
+	color: #868E96;
 }
 hr {
 	border-bottom: 1px solid #eceff8;
