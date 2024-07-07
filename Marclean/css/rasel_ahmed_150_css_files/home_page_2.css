@@ -1,0 +1,109 @@
+.banner_2.banner-bg {
+     background: #F4F1ED;
+     position: relative;
+     z-index: 1;
+     min-height: 600px;
+ }
+ .banner_container {
+     text-align: center;
+     padding-top: 50px;
+    padding-bottom: 41%;
+ }
+ 
+ .banner_container h1 {
+     font-weight: 400;
+     font-size: 56px;
+     line-height: 64px;
+     margin-bottom: 15px;
+ }
+ 
+ .banner_container h1 strong {
+     font-weight: 700;
+ }
+ .banner_absolute_bg{
+     background-image: url('/Marclean/images/latest-post/image-6.jpg');
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     height: 300px;
+     position: absolute;
+     width: 100%;
+     bottom: 0;
+     left: 0;
+ }
+ .banner_absolute_bg::after{
+     position: absolute;
+     width: 100%;
+     height: 100%;
+     content: "";
+     background-image: url('/Marclean/images/hero/home-2-bg.png');
+     background-position: center;
+     background-repeat: no-repeat;
+     min-height: 394px;
+     height: 100%;
+     left: 0;
+     bottom: 0;
+ }
+ .banner_absolute_bg .shape_1 > i {
+     width: 60px;
+     height: 60px;
+     background: #fff;
+     text-align: center;
+     line-height: 60px;
+     font-size: 24px;
+     color: #FCC419;
+     border-radius: 16px;
+ }
+ 
+ .banner_absolute_bg .shape_2 > i {
+     width: 36px;
+     height: 36px;
+     background: #FCC419;
+     color: #fff;
+     text-align: center;
+     line-height: 36px;
+     border-radius: 30px;
+ }
+ 
+ .banner_absolute_bg .shape_2 > h5 {
+     font-weight: 600;
+     font-size: 14px;
+     line-height: 17px;
+     margin-bottom: 0;
+ }
+ 
+ .banner_absolute_bg .shape_2 > h5 span {
+     font-size: 12px;
+     font-weight: 400;
+     line-height: 15px;
+     display: block;
+     padding-top: 5px;
+ }
+ 
+ @keyframes animated {
+     100%{
+          transform: translateY(-20px);
+     }
+ }
+ .banner_absolute_bg .shape_2 {
+     display: flex;
+     align-items: center;
+     gap: 8px;
+     background: #fff;
+     /* justify-content: flex-end; */
+     width: 175px;
+     position: absolute;
+     right: -12px;
+     padding: 19px 15px;
+     border-radius: 16px;
+     box-shadow: 0 18px 52px rgb(0 0 0 /5%);
+     top: -102px;
+     animation: animated 3s linear .4s infinite alternate;
+ }
+ 
+ .banner_absolute_bg .shape_1 {
+     position: absolute;
+     top: -30px;
+     animation: animated 3s linear .4s infinite alternate;
+     left: 58px;
+ }

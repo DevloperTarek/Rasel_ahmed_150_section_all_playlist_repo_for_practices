@@ -197,20 +197,21 @@ label {
 
 .btn {
 	-moz-user-select: none;
-	background: #1696e7 none repeat scroll 0 0;
-	border: medium none;
-	border-radius: 2px;
-	color: #fff;
+	/* background: #1696e7 none repeat scroll 0 0; */
+	background-color: #fff;
+	border: 2px solid #212529;
+	border-radius: 9px;
+	color: #212529;
 	cursor: pointer;
 	display: inline-block;
-	font-size: 13px;
+	font-size: 20px;
 	font-weight: 600;
 	letter-spacing: 1px;
-	line-height: 1;
+	line-height: 28px;
 	margin-bottom: 0;
-	padding: 13px 25px;
+	padding: 5px 60px;
 	text-align: center;
-	text-transform: uppercase;
+	text-transform: capitalize;
 	touch-action: manipulation;
 	transition: all 0.3s ease 0s;
 	vertical-align: middle;
