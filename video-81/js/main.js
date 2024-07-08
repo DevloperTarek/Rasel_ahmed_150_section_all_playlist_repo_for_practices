@@ -1,15 +1,9 @@
-
-
 (function ($) {
 "use strict";
 
 // $(".video-area-bg").magnificPopup({
 // 	type: 'iframe',
 //  });
-
-// progress
-const circle = new CircularProgressBar("circular_progress");
-circle.initial();
 
 // meanmenu
 $('#mobile-menu').meanmenu({
@@ -27,10 +21,10 @@ $('.main-menu nav ul').onePageNav({
 
 $(window).on('scroll', function () {
 	var scroll = $(window).scrollTop();
-	if (scroll < 200) {
-		$(".sticky_header").removeClass("sticky");
+	if (scroll < 245) {
+		$(".header-sticky").removeClass("sticky");
 	} else {
-		$(".sticky_header").addClass("sticky");
+		$(".header-sticky").addClass("sticky");
 	}
 });
 
@@ -77,23 +71,22 @@ mainSlider();
 
 
 // owlCarousel
-$('.banner_carousel_list').owlCarousel({
+$('.owl-carousel').owlCarousel({
     loop:true,
     margin:0,
-    autoplay:false,
 	items:1,
-	nav:false,
-	// navText:['<i class="fas fa-arrow-left"></i>','<i class="fas fa-arrow-right"></i>'],
-	dots:true,
+	navText:['<i class="fa fa-angle-left"></i>','<i class="fa fa-angle-right"></i>'],
+    nav:true,
+	dots:false,
     responsive:{
         0:{
             items:1
         },
         767:{
-            items:1
+            items:3
         },
         992:{
-            items:1
+            items:5
         }
     }
 })
@@ -137,11 +130,6 @@ $('.portfolio-menu button').on('click', function(event) {
 	$(this).addClass('active');
 	event.preventDefault();
 });
-
-// preloader
-$(window).on("load",function(){
-	$("#preloader").fadeOut(1000);
-   });
 
 
 
