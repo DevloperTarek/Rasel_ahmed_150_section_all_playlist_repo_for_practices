@@ -5,6 +5,12 @@
 // 	type: 'iframe',
 //  });
 
+// map js
+$('.map').gmap3({
+	address:"Dhaka,Bangladesh",
+	zoom:16,
+	mapTypeId : google.maps.MapTypeId.ROADMAP
+})
 // meanmenu
 $('#mobile-menu').meanmenu({
 	meanMenuContainer: '.mobile-menu',
