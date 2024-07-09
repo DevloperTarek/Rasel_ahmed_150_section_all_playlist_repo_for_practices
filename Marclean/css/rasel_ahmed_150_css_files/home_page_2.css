@@ -294,3 +294,137 @@ preloader */
         transform: rotate(360deg);
     }
 }
+
+
+.malware_container_wrap.malware_bg{
+    background-image: url(/Marclean/images/malware_problem/malware-problem-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    background-size: cover;
+}
+.malware_container_wrap {
+    padding: 50px;
+    border-radius: 25px;
+}
+
+.malware_content h1 {
+    color: #fff;
+    text-transform: capitalize;
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 54px;
+    margin-bottom: 30px;
+}
+
+.malware_content h1 > span {
+    display: block;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    color: #CED4DA;
+    margin-bottom: 5px;
+}
+
+.malware_content h4 {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #CED4DA;
+    margin-bottom: 40px;
+}
+
+.malware_content a.scan-btn {
+    background: #FCC419;
+    padding: 14px 60px;
+}
+
+/* malware problem css */
+.customer_review.gradient_bg {
+    background: linear-gradient(to right,  rgba(207,227,252,1) 0%,rgba(228,244,237,1) 100%);
+    padding: 160px 0;
+}
+
+.single_carousel_top .quote_icon > i {
+    width: 70px;
+    height: 70px;
+    background: linear-gradient(to right,  rgba(207,227,252,1) 0%,rgba(228,244,237,1) 100%);
+    text-align: center;
+    line-height: 70px;
+    border-radius: 50px;
+    font-size: 30px;
+}
+
+.single_carousel_item {
+    background: #fff;
+    padding: 40px 40px;
+    border-radius: 12px;
+    overflow: hidden;
+    position: relative;
+}
+
+.single_carousel_top .star_group i {
+    color: #FCC419;
+    font-size: 20px;
+}
+
+.single_carousel_top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+
+.single_heading h4 {
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 32px;
+    margin-bottom: 0;
+}
+.customer_carousel_list_wrap .single_heading h4 {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 32px;
+    margin-bottom: 0;
+}
+
+.single_heading {
+    margin-bottom: 32px;
+}
+.single_cart_bottom .man_img img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50px;
+}
+
+.single_cart_bottom .info h4 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+    color: #212529;
+    margin-bottom: 0;
+}
+
+.single_cart_bottom .info h4 > span {
+    display: block;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #868E96;
+}
+
+.single_cart_bottom {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+.customer_carousel_list_wrap .owl-stage-outer {
+    overflow: visible;
+}
+.customer_carousel_list_wrap_two .owl-stage-outer {
+    overflow: visible;
+}
+html,body{
+    overflow-x: hidden;
+}

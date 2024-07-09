@@ -143,7 +143,65 @@ $(window).on("load",function(){
 	$("#preloader").fadeOut(1000);
    });
 
+// malware problems
+$('.customer_carousel_list_wrap_two').owlCarousel({
+	loop:true,
+    margin:20,
+    autoplay:true,
+    autoplay:Infinity,
+	items:2,
+	nav:false,
+	autoPlay: 100,
+	smartSpeed: 300,
+    //autoPlay: true, <-- if you want to set default slide time (5000)
 
+    slideSpeed: 100,
+	// navText:['<i class="fas fa-arrow-left"></i>','<i class="fas fa-arrow-right"></i>'],
+	dots:true,
+    responsive:{
+        0:{
+            items:1,
+		  loop:true
+        },
+        767:{
+            items:2,
+		  loop:true
+        },
+        992:{
+            items:2,
+		  loop:true
+        }
+    }
+})
+$('.customer_carousel_list_wrap').owlCarousel({
+	loop:true,
+    margin:20,
+    autoplay:true,
+    autoplay:Infinity,
+	items:3,
+	nav:false,
+	autoPlay: 100,
+	smartSpeed: 300,
+    //autoPlay: true, <-- if you want to set default slide time (5000)
+
+    slideSpeed: 100,
+	// navText:['<i class="fas fa-arrow-left"></i>','<i class="fas fa-arrow-right"></i>'],
+	dots:true,
+    responsive:{
+        0:{
+            items:1,
+		  loop:true
+        },
+        767:{
+            items:3,
+		  loop:true
+        },
+        992:{
+            items:3,
+		  loop:true
+        }
+    }
+})
 
 
 // scrollToTop
