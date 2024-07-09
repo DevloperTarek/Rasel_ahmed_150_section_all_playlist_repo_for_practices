@@ -344,6 +344,10 @@ preloader */
     background: linear-gradient(to right,  rgba(207,227,252,1) 0%,rgba(228,244,237,1) 100%);
     padding: 160px 0;
 }
+.customer_review h1 {
+    font-size: 42px;
+    margin-bottom: 15px;
+}
 
 .single_carousel_top .quote_icon > i {
     width: 70px;
@@ -428,3 +432,233 @@ preloader */
 html,body{
     overflow-x: hidden;
 }
+
+
+/* successful_story */
+.successfull_women_contaienr.women-bg{
+    background-image: url('/Marclean/images/malware_partner/malware_partner.jpg');
+    background-color: #ddd;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    border-radius: 25px;
+    height: 100%;
+}
+.successfull_women_contaienr a > i {
+    width: 80px;
+    height: 80px;
+    background: #fff;
+    text-align: center;
+    line-height: 80px;
+    color: #000;
+    border-radius: 50px;
+    box-shadow: 0 0 10px #ddd;
+    cursor: pointer;
+}
+
+.successfull_women_contaienr {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.success_story_wraper {
+    background: #F4F1ED;
+    padding: 36px 60px 37px 36px;
+    border-radius: 25px;
+}
+
+.successful_women_container_content .double_qoute_icon > i {
+    width: 70px;
+    height: 70px;
+    background: #FCC419;
+    text-align: center;
+    line-height: 70px;
+    border-radius: 50px;
+    font-size: 30px;
+    box-shadow: 0 0 5px #ddd;
+    margin-bottom: 30px;
+}
+
+.successful_women_container_content > p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #212529;
+    margin-bottom: 40px;
+}
+
+.successful_women_container_content h4.title {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+}
+/* successful_story */
+
+/* case study */
+.case_study_bg img{
+    margin-bottom: 60px;
+}
+.case_study_step_wrap .single_step .case_one span {
+    width: 40px;
+    height: 40px;
+    background: #FCC419;
+    display: block;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50px;
+    box-shadow: 0 0 5px #ddd;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.case_study_step_wrap .single_step .content p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #495057;
+    margin-bottom: 0;
+}
+
+.case_study_step_wrap .single_step .content h4 {
+    margin-bottom: 10px;
+}
+
+.single_step {
+    display: flex;
+    gap: 24px; 
+    cursor: pointer;
+}
+.case_study_step_wrap {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 40px;
+    column-gap: 44px;
+    margin-top: 60px;
+}
+/* case study */
+
+/* experience wp-safe */
+.experience_wp-safe.section-bg{
+    background-image: url('/Marclean/images/experience_wp/experience_wp-bg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+.expericen_wp-safe_content h1 strong {
+    color: #fff;
+}
+
+.expericen_wp-safe_content h1 span {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.expericen_wp-safe_content {
+    text-align: center;
+}
+
+.expericen_wp-safe_content h1 {
+    margin-bottom: 30px;
+    color: #CED4DA;
+}
+
+.expericen_wp-safe_content > p {
+    margin-bottom: 40px;
+}
+
+.experienc_wp-safe_box {
+    margin-top: 90px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 96px;
+}
+.experienc_wp-safe_box .single_wp-safe-box .single_box_icon > i {
+    width: 60px;
+    height: 60px;
+    background: #FCC419;
+    text-align: center;
+    line-height: 60px;
+    font-size: 30px;
+    border-radius: 50px;
+    box-shadow: 0 0 5px #444;
+    margin-bottom: 15px;
+}
+
+.experienc_wp-safe_box .single_wp-safe-box .single_box_container h4 {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    margin-bottom: 15px;
+    color: #fff;
+}
+
+.experienc_wp-safe_box .single_wp-safe-box .single_box_container p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #CED4DA;
+}
+
+.single_wp-safe-box {text-align: center;}
+/* experience wp-safe */
+/* security process */
+.security_process_wrap.security_wrapper_items{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 40px;
+    column-gap: 34px;
+}
+.security_process_wrap a.single_process_item{
+    text-align: center;
+}
+/* security process */
+
+/* main footer */
+.footer_main_container {
+    text-align: center;
+}
+
+.footer_main_container ul.footer_menu_area {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 43px;
+}
+
+.footer_main_container ul.footer_menu_area li > a {
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 24px;
+    color: #495057;
+}
+.footer_area{
+    position: relative;
+}
+.footer_area::after{
+    content: "";
+    display: none;
+}
+.footer_main_container{
+    position: relative;
+    z-index: 1;
+}
+.footer_main_area::after{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 70px 0;
+    content: "";
+    z-index: -1;
+    background-image: url('/Marclean/images/footer/footer_shape.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* main footer */

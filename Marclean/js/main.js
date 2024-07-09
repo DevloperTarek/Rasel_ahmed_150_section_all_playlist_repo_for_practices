@@ -3,9 +3,9 @@
 (function ($) {
 "use strict";
 
-// $(".video-area-bg").magnificPopup({
-// 	type: 'iframe',
-//  });
+$(".video-popup-btn").magnificPopup({
+	type: 'iframe',
+ });
 
 // progress
 const circle = new CircularProgressBar("circular_progress");
