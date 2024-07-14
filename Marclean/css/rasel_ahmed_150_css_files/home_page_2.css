@@ -1,3 +1,23 @@
+/* header menu bar */
+.toggler_menu_bar {
+    text-align: center;
+    padding: 23px;
+    transition: .5s;
+    opacity: 0;
+    display: none;
+}
+.toggler_menu_bar > i {
+    width: 40px;
+    height: 40px;
+    background: #444;
+    color: #fff;
+    line-height: 40px;
+}
+/* header */
+
+
+
+
 .banner_2.banner-bg {
      background: #F4F1ED;
      position: relative;

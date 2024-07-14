@@ -1194,3 +1194,214 @@ preloader */
         transform: rotate(360deg);
     }
 }
+
+
+/* login */
+.login_form_inner form .form-group input {
+    padding: 20px;
+    width: 100%;
+    transition: .4s;
+    border-radius: 10px;
+    border: 1px solid #D6DADE;
+    /* position: relative; */
+    /* z-index: 1; */
+}
+
+.login_form_inner form .form-group input:focus ~ label {
+    top: -13px;
+    color:  rgb(88, 88, 234);
+}
+.login_form_inner form .form-group input:focus{
+    outline: none;
+    border: 1px solid rgb(88, 88, 234);
+}
+
+.login_form_inner form .form-group label {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    transition: .2s ease-in-out;
+    z-index: 1;
+    /* width: 50px; */
+    /* height: 16px; */
+    background: #fff;
+    margin-bottom: 0;
+    font-size: 17px;
+    padding: 0 5px;
+}
+
+.login_form_inner form .form-group {
+    position: relative;
+    z-index: 1;
+}
+
+
+/* resate password css */
+input[type="submit"].btn.resate_btn {
+    background: #FCC419;
+}
+.back_to_login-wrap a.back_to_login {
+    text-align: center;
+    display: block;
+    margin-top: 40px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #0F71F0;
+    position: relative;
+    z-index: 1;
+}
+
+.back_to_login-wrap a.back_to_login::after {
+    position: absolute;
+    bottom: -2px;
+    width: 114px;
+    height: 1px;
+    background: #0F71F0;
+    content: "";
+    left: 50%;
+    margin-left: -56px;
+}
+/* resate password css */
+
+
+/* sign up */
+.form-group input.submit_btn{
+    background-color: #FCC419;
+    font-weight: 600;
+}
+/* sign up */
+
+.checked_btn {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+
+.form_group label {
+    margin: 0;
+}
+
+.checked_btn input[type="checkbox"] {
+    width: 50px;
+    height: 24px;
+    border-radius: 10px;
+    border: 2px solid #ddd;
+}
+
+.checked_btn .form_group {
+    display: flex;
+    align-items: center;
+}
+
+.login_form_inner input[type="submit"] {
+    width: 100%;
+    padding: 15px;
+    border: none;
+}
+.devider {
+    margin: 40px 0;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    height: 1px;
+    background: red;
+}
+
+.devider > span {/* display: block; */position: absolute;top: -12px;/* width: 90%; */background: #fff;padding: 0 12px;left: 50%;transform: translateX(-50%);}
+
+a.sign_in_with_google_btn.btn {
+    display: block;
+    padding: 10px;
+    border: 0;
+    transition: .5s;
+}
+
+.create_an_another_account {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.create_an_another_account p {
+    margin-bottom: 0;
+}
+
+.create_an_another_account p > .accunt_create_btn {
+    padding-left: 10px;
+}
+
+.loging_form_wrapper {
+    border: 1px solid;
+    padding: 30px;
+    border-radius: 10px;
+    margin-top: 120px;
+    box-shadow: 0 0 10px #ddd;
+}
+.checked_btn input[type="checkbox"]:checked {
+    accent-color: green;
+}
+.checked_btn .form_group a.forgot_password{
+    transition: .5s;
+}
+.checked_btn .form_group a.forgot_password:hover {
+    text-decoration: 2px underline red;
+}
+/* .devider::before {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    width: 50%;
+    content: "";
+    background: red;
+    height: 1px;
+} */
+
+/* forgot password */
+.forgoat_content {
+    text-align: center;
+    padding: 30px;
+}
+
+.forgoat_content .logo {
+    margin-bottom: 20px;
+}
+
+.forgoat_content .content_heading h2 {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 44px;
+    margin-bottom: 30px;
+}
+
+.forgoat_content .forgot_check > i {
+    width: 67px;
+    height: 67px;
+    background: #16A761;
+    color: #fff;
+    line-height: 67px;
+    font-size: 30px;
+    border-radius: 50px;
+    margin-bottom: 16px;
+}
+
+.forgoat_content .info {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #495057;
+    margin-bottom: 40px;
+}
+
+.forgoat_content a.back_to_login {
+    padding: 16px 8px;
+    width: 100%;
+    background: #FCC419;
+    border: none;
+}
+
+.forgoat_content .info span.user_mail {
+    font-weight: 500;
+}
+/* forgot password */

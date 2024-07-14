@@ -1,21 +1,125 @@
+// let menu_btn_toggler = document.querySelector('.mean-menu');
+// let menu_btn = document.querySelector('#toggle_menu_btn');
+// menu_btn.addEventListener('click',()=>{
+// 	menu_btn.classList.toggle('fa-times');
+// 	menu_btn_toggler.classList.toggle('active');
+// })
+
+// const text_field = document.querySelector('#text_field');
+// const submit_btn = document.querySelector('#show_data_from_input');
+// const recordData = document.querySelector('#record');
+
+
+// // add data as json object
+// let users_dara_arr = [];
+
+// let getValueFromLoCalStroage = localStorage.getItem('user_');
+// if(users_dara_arr != null ){
+// 	users_dara_arr = JSON.parse(getValueFromLoCalStroage);
+// }
+// show_data_on_table();
+// submit_btn.addEventListener('click',()=>{
+// 	let input_fleld_value = text_field.value;
+// 	console.log(input_fleld_value);
+// 	users_dara_arr.push({'name': input_fleld_value});
+// 	saveData(users_dara_arr);
+// 	text_field.value = "";
+// })
+
+// function saveData(users_dara_arr){
+// 	let saveDta = JSON.stringify(users_dara_arr);
+// 	localStorage.setItem('user_',saveDta);
+// }
+
+// function show_data_on_table(){
+// 	let arras_single_value_ = "";
+// 	users_dara_arr.forEach((user,index)=>{
+// 		arras_single_value_ += `<tr>
+//                              <th scope="row">${index++}</th>
+//                              <td>${user.name}</td>
+//                              <td><i class="fas fa-edit"></i></td>
+//                              <td><i class="fas fa-trash-alt"></i></td>
+//                            </tr>`
+// 	});
+// 	recordData.innerHTML = arras_single_value_;
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// let userArr = [];
+
+// let getValueFromLocalStroage = localStorage.getItem('users');
+// console.log(getValueFromLocalStroage);
+// if(userArr != null){
+// 	userArr = JSON.parse(getValueFromLocalStroage);
+// }
+
+// display_data();
+// submit_btn.addEventListener('click',()=>{
+// 	let passTheValueFromInpur = text_field.value;
+// 	userArr.push({'name': passTheValueFromInpur});
+// 	savaInfo(userArr);
+// 	text_field.value = '';
+// });
+
+
+// function savaInfo(userArr){
+// 	let save = JSON.stringify(userArr)
+// 	localStorage.setItem('users',save);
+// 	console.log(typeof(save));
+// }
+// function display_data(){
+// 	let show_data_vari = "";
+// 	userArr.forEach((user)=>{
+// 		show_data_vari += `<tr>
+//                              <th scope="row"></th>
+//                              <td>${user.name}</td>
+//                              <td><i class="fas fa-edit"></i></td>
+//                              <td><i class="fas fa-trash-alt"></i></td>
+//                            </tr>`
+// 	})
+// 	recordData.innerHTML = show_data_vari;
+// }
+
 
 
 (function ($) {
 "use strict";
 
+// preloader
+$(window).on("load",function(){
+	$("#preloader").fadeOut(1000);
+   });
+
+
 $(".video-popup-btn").magnificPopup({
 	type: 'iframe',
  });
 
-// progress
-const circle = new CircularProgressBar("circular_progress");
-circle.initial();
 
 // meanmenu
-$('#mobile-menu').meanmenu({
-	meanMenuContainer: '.mobile-menu',
-	meanScreenWidth: "992"
-});
+// $('.mobile_menu').meanmenu({
+// 	meanMenuContainer: '.mobile_menu',
+// 	meanScreenWidth: "992"
+// });
 
 // One Page Nav
 var top_offset = $('.header-area').height() - 10;
@@ -137,11 +241,6 @@ $('.portfolio-menu button').on('click', function(event) {
 	$(this).addClass('active');
 	event.preventDefault();
 });
-
-// preloader
-$(window).on("load",function(){
-	$("#preloader").fadeOut(1000);
-   });
 
 // malware problems
 $('.customer_carousel_list_wrap_two').owlCarousel({
