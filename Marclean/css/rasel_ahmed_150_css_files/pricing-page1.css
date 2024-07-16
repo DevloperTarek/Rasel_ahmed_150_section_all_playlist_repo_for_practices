@@ -1,0 +1,295 @@
+/* .pricing_page_wrapper {
+     background: #fff;
+     padding: 40px 50px;
+ }
+ 
+ .pricing_left_area .pricing_title h1 {
+     font-weight: 700;
+     font-size: 35px;
+     margin-bottom: 20px;
+ }
+ .pricing_left_area .pricing_title p {
+     margin-bottom: 40px;
+ }
+ 
+ .pricing_left_area .pricing_list_item ul li {
+     position: relative;
+     z-index: 1;
+     padding-left: 80px;
+ }
+ 
+ .pricing_left_area .pricing_list_item ul li > i {
+     position: absolute;
+     top: 5px;
+     left: 0;
+     width: 50px;
+     height: 50px;
+     background: #fff;
+     box-shadow: 0 0 5px #ddd;
+     border-radius: 10px;
+     text-align: center;
+     line-height: 50px;
+     font-size: 23px;
+ }
+ 
+ .pricing_left_area .pricing_list_item ul li > p {
+     font-size: 18px;
+     margin-bottom: 0;
+ }
+ 
+ .pricing_left_area .pricing_list_item ul li > h4 {
+     margin-bottom: 0;
+ }
+ 
+ .pricing_left_area .pricing_list_item ul li {
+     margin-bottom: 30px;
+ }
+ 
+ .pricing_right_title {
+     text-align: center;
+     margin-bottom: 30px;
+ }
+ 
+ .pricing_right_title h1 {
+     margin-bottom: 10px;
+ }
+ 
+ .pricing_right_title > p {
+     margin-bottom: 0;
+ }
+ 
+ .pricing_right_area {
+     background: #fff;
+     box-shadow: 0 0 10px #ddd;
+     padding: 50px 40px 20px 40px;
+ }
+ 
+ .pricing_content {
+     background: rgb(216 216 207 / 24%);
+     padding: 25px;
+     border-radius: 10px;
+ }
+ 
+ .pricing_content > p {
+     font-size: 18px;
+     margin-bottom: 5px;
+ }
+ 
+ .pricing_content h2.price {
+     font-size: 35px;
+     font-weight: 500;
+     margin-bottom: 12px;
+ }
+ 
+ .pricing_content h2 > span {
+     font-size: 20px;
+     font-weight: 500;
+     color: #ddd;
+ }
+ 
+ .pricing_content a.feature_comprision {
+     font-weight: 500;
+     text-transform: capitalize;
+ }
+ 
+ .pricing_content {
+     margin-bottom: 30px;
+ }
+ 
+ .price_charge {
+     display: flex;
+     justify-content: space-between;
+ }
+ 
+ .price_charge .price_left h4 {
+     margin-bottom: 5px;
+ }
+ 
+ .price_charge .price_left h4 > i {
+     padding-left: 5px;
+     color: #666;
+ }
+ 
+ .price_charge .price_left p {
+     font-size: 20px;
+     margin-bottom: 0;
+ }
+ 
+ .price_charge .charged_amount > span {
+     font-weight: 700;
+ }
+ 
+ .form_group {
+     width: 100%;
+     border: 1px solid #ddd;
+     border-radius: 5px;
+     padding: 10px;
+ }
+ 
+ .form_group label {
+     position: absolute;
+     top: 11px;
+     z-index: 3;
+     left: 31px;
+     font-size: 16px;
+     transition: .5s;
+     display: inline-block;
+     background: #fff;
+ }
+ 
+ .form_group:focus label {
+     top: -12px;
+     padding: 0 10px;
+ }
+ 
+ .biling_info .biling_title h2 {
+     margin-bottom: 20px;
+     font-size: 23px;
+     font-weight: 500;
+ }
+ 
+ .form_group .archiev_icon > i {
+     position: absolute;
+     top: 16px;
+     z-index: 1;
+     right: 34px;
+     opacity: .4;
+     cursor: pointer;
+ }
+ 
+ .form_group {
+     margin-bottom: 21px;
+ }
+ 
+ .biling_info .form_group input#upgrade_btn {display: inline-block;width: 450px;} */
+
+ /* upload form */
+ .four_steps .devider {
+    position: absolute;
+    top: 40%;
+    right: -56%;
+    transform: rotate(90deg);
+    width: 420px;
+    z-index: -1;
+}
+
+.four_steps ul {
+    position: relative;
+}
+
+.four_steps ul li {
+    position: relative;
+    padding-right: 51px;
+    text-align: right;
+    /* padding-bottom: 20px; */
+}
+
+.four_steps ul li > i {
+    position: absolute;
+    top: 20px;
+    width: 30px;
+    height: 30px;
+    right: 0;
+    background: #6dc6e0;
+    border-radius: 30px;
+    text-align: center;
+    line-height: 30px;
+    color: #fff;
+}
+
+.four_steps {
+    position: relative;
+}
+
+.four_steps ul li > p {
+    margin-bottom: 50px;
+}
+.file_upload_hear {
+    border: 2px dashed #2370F8;
+    border-radius: 10px;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.main_container > i {
+    color: #4485F9;
+    font-size: 50px;
+    display: block;
+    margin-bottom: 24px;
+}
+
+.main_container  h1.upload_title {
+    color: #4485F9;
+}
+
+.main_container p {
+    margin-bottom: 0;
+}
+
+.btn_groups a {
+    padding: 18px 36px;
+    background: #E9F1FE;
+    display: inline-block;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 17px;
+}
+
+.btn_groups {
+    display: flex;
+    justify-content: flex-end;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.btn_groups a.next_btn {
+    color: #fff;
+    background: #4083F9;
+}
+
+.upload_files .form_group {
+    position: relative;
+}
+
+.upload_files .form_group label {
+    position: absolute;
+    top: -20px;
+    left: 15px;
+}
+
+.upload_files .form_group label > i {
+    font-size: 12px;
+}
+
+.upload_files .form_group label span > i {
+    font-size: 8px;
+    padding-left: 5px;
+    position: absolute;
+    top: 5px;
+    color: #ff3d4f;
+}
+
+form.upload_files {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.upload_files .form_group input {
+    width: 100%;
+    border: 0;
+    background: #f4f1f1;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.upload_files .form_group #cat-select {
+    width: 100%;
+    border: 0;
+    background: #f4f1f1;
+    padding: 15px;
+    border-radius: 5px;
+}

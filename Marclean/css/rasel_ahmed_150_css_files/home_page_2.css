@@ -465,6 +465,25 @@ html,body{
     border-radius: 25px;
     height: 100%;
 }
+@keyframes animated_video {
+    70%{
+        box-shadow: 0 0 10px 2px #fff;
+    }
+    100%{
+        box-shadow: 0 0 0 0 #fff;
+    }
+}
+.successfull_women_contaienr a > i::after{
+    content: "";
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 50px;
+    transition: 1s;
+    z-index: -1;
+}
 .successfull_women_contaienr a > i {
     width: 80px;
     height: 80px;
@@ -473,8 +492,14 @@ html,body{
     line-height: 80px;
     color: #000;
     border-radius: 50px;
-    box-shadow: 0 0 10px #ddd;
     cursor: pointer;
+    transition: .1s;
+    animation-name: animated_video;
+    animation-delay: 1s;
+    animation-duration: 3s;
+    /* animation-direction: alternate; */
+    animation-iteration-count: infinite;
+    animation-play-state: running;
 }
 
 .successfull_women_contaienr {

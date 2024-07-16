@@ -115,6 +115,14 @@ $(".video-popup-btn").magnificPopup({
  });
 
 
+//  bootstrap video modal
+$('.biling_btn').on('click',function(){
+	let video_src = 'http://www.youtube.com/v/FSi2fJALDyQ&amp;autoplay=1';
+	$('#myModal').modal('show');
+	$('#myModal iframe').attr('src', video_src)
+})
+//  bootstrap video modal
+
 // meanmenu
 // $('.mobile_menu').meanmenu({
 // 	meanMenuContainer: '.mobile_menu',
