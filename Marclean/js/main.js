@@ -1,9 +1,4 @@
-// let menu_btn_toggler = document.querySelector('.mean-menu');
-// let menu_btn = document.querySelector('#toggle_menu_btn');
-// menu_btn.addEventListener('click',()=>{
-// 	menu_btn.classList.toggle('fa-times');
-// 	menu_btn_toggler.classList.toggle('active');
-// })
+
 
 // const text_field = document.querySelector('#text_field');
 // const submit_btn = document.querySelector('#show_data_from_input');
@@ -101,10 +96,19 @@
 
 
 
+
+
+
+
+
+
+
+
 (function ($) {
 "use strict";
 
 // preloader
+
 $(window).on("load",function(){
 	$("#preloader").fadeOut(1000);
    });
@@ -114,7 +118,12 @@ $(".video-popup-btn").magnificPopup({
 	type: 'iframe',
  });
 
+// mean-menu
 
+// menu_btn.addEventListener('click',()=>{
+// 	menu_btn.classList.toggle('fa-times');
+// 	menu_btn_toggler.classList.toggle('active');
+// })
 //  bootstrap video modal
 $('.biling_btn').on('click',function(){
 	let video_src = 'http://www.youtube.com/v/FSi2fJALDyQ&amp;autoplay=1';
@@ -126,7 +135,7 @@ $('.biling_btn').on('click',function(){
 // meanmenu
 // $('.mobile_menu').meanmenu({
 // 	meanMenuContainer: '.mobile_menu',
-// 	meanScreenWidth: "992"
+// 	meanScreenWidth: "1024"
 // });
 
 // One Page Nav

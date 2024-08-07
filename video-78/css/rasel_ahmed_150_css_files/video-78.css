@@ -1,0 +1,33 @@
+
+
+.food_relative_bg{
+    background-image: url(/video-78/img/city-people.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.food-bg-2{
+    background-image: url(/video-78/img/city-road-backgrund.jpg);
+}
+.food-bg-3{
+    background-image: url(/video-78/img/video-one-office-staff_background_jpg_image-1.jpg);
+}
+.food_relative_bg {
+    height: 300px;
+    margin-left: -15px;
+    margin-right: -15px;
+    position: relative;
+}
+
+.food_content {
+    background: #ddd;
+    /* position: relative; */
+    /* z-index: 1; */
+    /* margin-top: -79px; */
+    /* margin-left: 15px; */
+    /* margin-right: 15px; */
+    position: absolute;
+    top: 78%;
+    left: 9%;
+    width: 82%;
+}

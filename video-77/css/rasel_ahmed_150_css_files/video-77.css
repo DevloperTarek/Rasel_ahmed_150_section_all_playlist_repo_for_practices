@@ -1,0 +1,92 @@
+
+
+.feature-bg{
+    background-image: url(/video-77/img/city-people.jpg);
+    background-position: center;
+    background-color: #ddd;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg-2{
+    background-image: url(/video-77/img/city-road-backgrund.jpg);
+}
+.bg-3{
+    background-image: url(/video-77/img/video-one-office-staff_background_jpg_image-1.jpg);
+}
+.bg-4{
+    background-image: url(/video-77/img/testimonials_bg.png);
+}
+.single-feature-item.feature-1 {
+    position: relative;
+    z-index: 1;
+}
+
+.feature-bg {
+    position: absolute;
+    left: 25%;
+    width: 50%;
+    height: 100%;
+    opacity: .7;
+    bottom: -40px;
+    background-repeat: no-repeat;
+}
+.feature_content {
+    background: #fff;
+    box-shadow: 0 0 5px #ddd;
+    padding: 50px;
+    position: relative;
+    z-index: 1;
+    padding-left: 119px;
+    cursor: pointer;
+    transition: .8s;
+    border-bottom: 3px solid #b35ebf;
+}
+
+.feature_content .feature_no {
+    position: absolute;
+    font-size: 40px;
+    font-weight: 700;
+    top: 47px;
+    left: 47px;
+    opacity: .3;
+}
+
+.feature_content .feature_no::after {
+    position: absolute;
+    top: 40px;
+    left: -12px;
+    width: 100px;
+    height: 2px;
+    background: red;
+    content: "";
+    transform: rotate(-56deg);
+}
+
+.feature_content h3 {
+    font-weight: 600;
+    font-size: 25px;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+}
+
+.feature_content p {
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 30px;
+    margin-bottom: 0;
+}
+
+.feature-2 .feature_content {
+    border-bottom: 3px solid #3c80ed;
+    transition: .8s;
+}
+
+.feature-4 .feature_content {
+    border-bottom: 3px solid #3c80ed;
+    transition: .8s;
+}
+.feature_content:hover {
+    border-bottom: 3px solid #000;
+    animation: fadeInLeft;
+    animation-duration: 1s;
+}
